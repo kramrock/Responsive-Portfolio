@@ -215,23 +215,58 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  @media screen and (max-width: 640px){
-    body {
-    padding-left: 5px;
-    padding-right: 5px;}
-    }
-
-@media screen and (max-width: 768px){ 
-    body {
-    padding-left: 5px;
-    padding-right: 5px; }
-    }
-
+ 
 @media screen and (max-width: 980px) {
     body {
     padding-left :15px;
     padding-right: 20px; }
 }
+@media screen and (max-width: 768px){ 
+    body {
+    padding-left: 5px;
+    padding-right: 5px; }
+    }
+  
+    #masthead {
+      padding-right: 5px;
+      max-width: 960px;
+      width: 97%;
+    }
 
+
+@media screen and (max-width: 640px){
+    
+    body {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    #main-container {
+      padding: 0;
+    }
+    #masthead {
+        position: static;
+        width: 100%;
+        padding: 0;
+        
+      }
+    #logo {
+        height: 80px;
+        width: 100%;
+    }
+    nav {
+      float: left;
+      margin: 5px;
+      text-align: center;
+    }
+    .main-section {
+      
+      width: 100%;
+      max-width: 960px;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
+  }
 
   
